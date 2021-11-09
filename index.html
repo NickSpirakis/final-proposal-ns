@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!--requirement 1-->
+<head>
+
+    <title>Final Project Proposal</title>
+  
+</head>
+
+<body style="background-color: rgb(35, 170, 233);">
+
+
+    <!--product name-->
+    <p style="text-align: center;">Final Project: Flyer's Hangman</p>
+    <p style="text-align: center;">Web Game</p>
+
+    <!--team members-->
+    <h2 style="color: midnightblue;">Team Members</h2>
+    <p>
+       Nick Spirakis
+    </p>
+    <!--overview-->
+    <h2 style="color: rgb(242, 255, 0);">Overview</h2>
+    <p>
+        I do have some other ideas, but this is what I am leaning towards right now.
+        This web game will use an api to obtain words and hints. Currently I am thinking
+        about making a hangman game. The user can roll dice to choose how many letters the given 
+        word will be. Then when a word is chosen, a category or hint of some kind will show up on 
+        screen. The api can provide words, hints, definitions, and examples. Guess the wrong letter
+        or make an incorrect guess too many times and you loose. There is also a scoring and 
+        leaderboard system.
+    </p>
+
+    <p>
+        This application would use the Merriam Webster api to obtain words hints and definitions.
+        It will be written in html, javascript, json, as well as css, and hosted on Azure.
+        There will also be a database used to set and display scores.
+    </p>
+    <!--proposal last updated date-->
+    <p>Last Updated 11/9/21</p>
+    <!--feature list-->
+    <h2 style="color: orange;">Feature List</h2>
+    <ul style="list-style-type: square;">
+        <li>Use of API to obtain random words and hints</li>
+        <li>A way to display previously guessed letters that were wrong</li>
+        <li>Scoring system database</li>
+    </ul>
+    <!--future features list-->
+    <h2 style="color: rgb(217, 0, 255);">Future Feature List</h2>
+    <ul style="list-style-type: square;">
+        <li>The ability for another person to choose what word they want 
+            you to have
+        </li>
+        <li>a timer, where you either need to get the word in x amount of time, 
+            or a timer where you need to guess a letter every x seconds
+        </li>
+    </ul>
+    <!--basic technical features list-->
+    <h2 style="color: rgb(255, 0, 13);">Technical Features</h2>
+    <ul style="list-style-type: square;">
+        <li>obtaining information from an api</li>
+        <li>retrieving data from a database</li>
+        <li>writing to a database</li>
+    </ul>
+    <!--advanced technical features list-->
+    <h2 style="color: rgb(4, 255, 0);">Advanced Technical Features</h2>
+    <ul style="list-style-type: square;">
+        <li>Asynchronous Loading of High Scores</li>
+        <li>Asynchronous Loading of an amount of words equal to the number rolled on the dice
+            (so if a game goes to 10, I need to load in 10 words, and then I can store them
+            in a list, and once one of the word is guessed, I can move on to the next one)
+        </li>
+    </ul>
+
+</body>
+</html>
